@@ -8,7 +8,7 @@ def main():
     #Calculate price
     cost = estimate_cost(hours_parked)
     #Return price to user
-    print("Your parking will cost $", cost)
+    print("Your parking will cost $", cost, sep="")
 def estimate_cost(hours_parked):
     cost = hourly_rate * hours_parked
     return cost

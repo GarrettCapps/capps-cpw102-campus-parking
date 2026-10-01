@@ -9,10 +9,10 @@ Enter [a valid input]
 The program calculates and displays the correct [output]
 
 **Actual Result:**  
-_To be completed during testing._
+The program performed as expected and returned the correct value
 
 **Result:**  
-Pass / Fail
+Pass
 
 ---
 
@@ -25,10 +25,11 @@ Enter the minimum or maximum allowed [input]
 The program handles the boundary value correctly.
 
 **Actual Result:**  
-_To be completed during testing._
+The program handles all numbers as expected, with a 0 returnign $0, though sufficiently large numbers result in a number expressed in scientific notation.
+Negative numbers return negative results as one would expect
 
 **Result:**  
-Pass / Fail
+Pass
 
 ---
 
@@ -41,7 +42,7 @@ Enter an invalid value (such as text when a number is expected)
 The program handles the invalid input without crashing.
 
 **Actual Result:**  
-_To be completed during testing._
+The program throws an exception, expecting a float value to be input, meaning it is incapable of handling a string being input by the user
 
 **Result:**  
-Pass / Fail
+Fail
